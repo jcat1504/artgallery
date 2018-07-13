@@ -1,17 +1,32 @@
-    .art {
-        padding-bottom: 2em;
-    }
-    
-    .row {
-        align-content: center;
-        padding-top: 5%;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-    
-    .container img {
-        width: 250px;
-        height: 275px;
-        margin-left: 25%;
-        margin-right: 25%;
-    }
+.art {
+    padding-bottom: 2em;
+}
+
+.row {
+    align-content: center;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container img {
+    width: 250px;
+    height: 275px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#profile-picture img {
+    align-content: center;
+    height: 250px;
+    width: 220px;
+    margin-left: 25.5%;
+    margin-right: auto;
+    margin-top: 2%;
+    border-left: solid 10px gray;
+    text-align: right;
+}
+
+#testing {
+    height: auto;
+}
