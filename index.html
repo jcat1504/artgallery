@@ -11,6 +11,24 @@
 
 
 <body>
+    
+    
+    <p id="demo" onclick="myFunction()">hello.</p>
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Paragraph changed!";
+        }
+    </script>
+
+
+
+    <script>
+        var fs = require('fs');
+        var files = fs.readdirSync('/img');
+
+        console.log(files);
+    </script>
     <center>
         <div class="banner">
             <div id="night-sky">
