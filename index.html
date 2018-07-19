@@ -31,30 +31,24 @@
 
 <body>
 
-    <p id="demo" onclick="myFunction()">hello.</p>
 
     <script>
-        function myFunction() {
-            document.getElementById("demo").innerHTML = "Paragraph changed!";
-        }
-    </script>
-
-
-
-    <script>
-        var fs = require('fs');
+   var fs = require('./img');
         var files = fs.readdirSync('./img');
+
 
 
         function myMessage() {
             if (files == null) {
-                return "sorry something went wrong";
+                return " sorry something went wrong ";
             } else {
                 // print files
             }
         }
-
-        console.log(myMessage());
+    </script>
+    
+      <script>
+        document.write(myMessage());
     </script>
 
 
