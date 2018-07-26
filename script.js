@@ -1,4 +1,6 @@
- var myProfile = document.createElement("img");
+ //images//
+
+var myProfile = document.createElement("img");
  myProfile.setAttribute("src", "img/balloon.jpg");
  document.getElementById("balloon").append(myProfile);
  var myProfile = document.createElement("img");
