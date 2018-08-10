@@ -1,49 +1,29 @@
-var data = {
-    "images": [{
-            "img": "img/balloon.jpg",
-            "id": "balloon"
-        },
-        {
-            "img": "img/cate.jpg",
-            "id": "cate"
+//images//
 
-        },
-        {
-            "img": "img/dragon.jpg",
-            "id": "dragon"
-        },
-        {
-            "img": "img/Groot.jpg",
-            "id": "groot"
-        },
-        {
-            "img": "img/flareon.jpg",
-            "id": "flareon"
-        },
-        {
-            "img": "img/forest.jpg",
-            "id": "forest"
-        },
-        {
-            "img": "img/fox.jpg",
-            "id": "fox"
-        },
-        {
-            "img": "img/glaceon.jpg",
-            "id": "glaceon"
-        },
-        {
-            "img": "img/majora.jpg",
-            "id": "majora"
-        },
-
-
-    ]
-};
-data.images.forEach(function(obj) {
-    var img = new Image();
-    img.src = obj.img;
-    img.setAttribute("class", "art");
-    document.getElementById("images").appendChild(img);
-
-});
+var myProfile = document.createElement("img");
+myProfile.setAttribute("src", "img/balloon.jpg");
+document.getElementById("balloon").append(myProfile);
+var myProfile = document.createElement("img");
+myProfile.setAttribute("src", "img/cate.jpg");
+document.getElementById("cate").append(myProfile);
+var myProfile = document.createElement("img");
+myProfile.setAttribute("src", "img/dragon.jpg");
+document.getElementById("dragon").append(myProfile);
+var myProfile = document.createElement("img");
+myProfile.setAttribute("src", "img/Groot.jpg");
+document.getElementById("groot").append(myProfile);
+var myProfile = document.createElement("img");
+myProfile.setAttribute("src", "img/flareon.jpg");
+document.getElementById("flareon").append(myProfile);
+var myProfile = document.createElement("img");
+myProfile.setAttribute("src", "img/forest.jpg");
+document.getElementById("forest").append(myProfile);
+var myProfile = document.createElement("img");
+myProfile.setAttribute("src", "img/fox.jpg");
+document.getElementById("fox").append(myProfile);
+var myProfile = document.createElement("img");
+myProfile.setAttribute("src", "img/glaceon.jpg");
+document.getElementById("glaceon").append(myProfile);
+var myProfile = document.createElement("img");
+myProfile.setAttribute("src", "img/majora.jpg");
+document.getElementById("majora").append(myProfile);
