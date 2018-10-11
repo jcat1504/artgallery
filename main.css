@@ -1,16 +1,16 @@
     /* Art portfolio stuff */
-    
+
     .art {
         padding-bottom: 2em;
     }
-    
+
     .row {
         align-content: center;
         padding-top: 2%;
         padding-left: 10%;
         padding-right: 10%;
     }
-    
+
     .container img {
         width: 250px;
         height: 275px;
@@ -18,7 +18,7 @@
         margin-right: 25%;
     }
     /*Portfolio picture code */
-    
+
     #profile-picture img {
         align-content: center;
         height: 250px;
@@ -26,22 +26,22 @@
         margin-left: 25.5%;
         margin-right: auto;
         margin-top: 2%;
-        border-left: solid 10px gray;
+        border-left: solid 10px #e85643;
         text-align: right;
     }
     /*All Banner Related!! */
-    
+
     .banner {
         position: relative;
-        border: 0px solid black;
-        background-color: black;
-        opacity: 0.2;
+        border: 0px solid #e85643;
+        background-color: #e85643;
+        /* -opacity: 0.2; */
     }
-    
+
     header h1 {
         margin: 0;
     }
-    
+
     .centered-text {
         font-family: Helvetica, Arial;
         font-size: 48px;
@@ -49,12 +49,12 @@
         color: white;
     }
     /* border-line(bottom) */
-    
+
     .hline-bottom {
         padding-top: 1%;
         margin-top: 2px;
         margin-left: 25.5%;
         margin-right: 18%;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.082);
+        border-bottom: 2px solid #e85643;
         /* whichever color you prefer */
     }
